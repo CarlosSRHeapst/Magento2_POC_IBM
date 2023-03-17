@@ -1,0 +1,51 @@
+Magento CLI 2.4.5
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help            Display this help message
+  -q, --quiet           Do not output any message
+  -V, --version         Display this application version
+      --ansi            Force ANSI output
+      --no-ansi         Disable ANSI output
+  -n, --no-interaction  Do not ask any interactive question
+  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  help                                     Display help for a command
+  list                                     List commands
+ admin
+  admin:user:create                        Creates an administrator
+ i18n
+  i18n:collect-phrases                     Discovers phrases in the codebase
+  i18n:pack                                Saves language package
+ info
+  info:adminuri                            Displays the Magento Admin URI
+  info:backups:list                        Prints list of available backup files
+  info:currency:list                       Displays the list of available currencies
+  info:dependencies:show-framework         Shows number of dependencies on Magento framework
+  info:dependencies:show-modules           Shows number of dependencies between modules
+  info:dependencies:show-modules-circular  Shows number of circular dependencies between modules
+  info:language:list                       Displays the list of available language locales
+  info:timezone:list                       Displays the list of available timezones
+ module
+  module:config:status                     Checks the modules configuration in the 'app/etc/config.php' file and reports if they are up to date or not
+  module:disable                           Disables specified modules
+  module:enable                            Enables specified modules
+  module:status                            Displays status of modules
+  module:uninstall                         Uninstalls modules installed by composer
+ setup
+  setup:backup                             Takes backup of Magento Application code base, media and database
+  setup:config:set                         Creates or modifies the deployment configuration
+  setup:db-data:upgrade                    Installs and upgrades data in the DB
+  setup:db-schema:upgrade                  Installs and upgrades the DB schema
+  setup:db:status                          Checks if DB schema or data requires upgrade
+  setup:di:compile                         Generates DI configuration and all missing classes that can be auto-generated
+  setup:install                            Installs the Magento application
+  setup:performance:generate-fixtures      Generates fixtures
+  setup:rollback                           Rolls back Magento Application codebase, media and database
+  setup:static-content:deploy              Deploys static view files
+  setup:store-config:set                   Installs the store configuration. Deprecated since 2.2.0. Use config:set instead
+  setup:uninstall                          Uninstalls the Magento application
+  setup:upgrade                            Upgrades the Magento application, DB data, and schema
