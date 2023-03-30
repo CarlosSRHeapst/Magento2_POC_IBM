@@ -1,0 +1,868 @@
+
+[2022-12-22T17:00:29.804496+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Indexer\Model\ResourceModel\Mview\View\State\Collection\Interceptor, Magento\Indexer\Model\ResourceModel\Mview\View\State\Collection\Interceptor::setConnection(): Argument #1 ($conn) must be of type Magento\Framework\DB\Adapter\AdapterInterfaceIbm, Magento\Framework\DB\Adapter\Pdo\Ibm given, called in /var/www/html/magento2/vendor/magento/framework/Model/ResourceModel/Db/Collection/AbstractCollection.php on line 135 [] []
+[2022-12-22T17:00:29.814837+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-22T17:00:29.817176+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-22T17:02:13.866501+00:00] main.ERROR: Impossible to process constructor argument Parameter #0 [ <required> Magento\Framework\DB\Adapter\Pdo\Mysql $adapter ] of Magento\Framework\DB\Select class
+#0 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/Code/Reader/ClassReaderDecorator.php(35): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Area.php(53): Magento\Setup\Module\Di\Code\Reader\ClassReaderDecorator->getConstructor()
+#2 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Operation/Area.php(116): Magento\Setup\Module\Di\Code\Reader\Decorator\Area->getList()
+#3 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Operation/Area.php(87): Magento\Setup\Module\Di\App\Task\Operation\Area->getDefinitionsCollection()
+#4 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\Area->doOperation()
+#5 /var/www/html/magento2/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(216): Magento\Setup\Module\Di\App\Task\Manager->process()
+#6 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(255): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#7 /var/www/html/magento2/vendor/symfony/console/Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#8 /var/www/html/magento2/vendor/symfony/console/Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#9 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#10 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#11 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2022-12-22T17:05:12.966504+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Indexer\Model\ResourceModel\Mview\View\State\Collection\Interceptor, Magento\Indexer\Model\ResourceModel\Mview\View\State\Collection\Interceptor::setConnection(): Argument #1 ($conn) must be of type Magento\Framework\DB\Adapter\AdapterInterfaceIbm, Magento\Framework\DB\Adapter\Pdo\Ibm given, called in /var/www/html/magento2/vendor/magento/framework/Model/ResourceModel/Db/Collection/AbstractCollection.php on line 135 [] []
+[2022-12-22T17:05:12.972370+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-22T17:05:12.974377+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-22T17:45:01.630744+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Indexer\Model\ResourceModel\Mview\View\State\Collection\Interceptor, Magento\Indexer\Model\ResourceModel\Mview\View\State\Collection\Interceptor::setConnection(): Argument #1 ($conn) must be of type Magento\Framework\DB\Adapter\AdapterInterfaceIbm, Magento\Framework\DB\Adapter\Pdo\Ibm given, called in /var/www/html/magento2/vendor/magento/framework/Model/ResourceModel/Db/Collection/AbstractCollection.php on line 137 [] []
+[2022-12-22T17:45:01.636167+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-22T17:45:01.637907+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-22T18:46:55.780342+00:00] main.ERROR: Error during compilation
+#0 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList()
+#2 /var/www/html/magento2/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /var/www/html/magento2/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(216): Magento\Setup\Module\Di\App\Task\Manager->process()
+#4 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(255): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#5 /var/www/html/magento2/vendor/symfony/console/Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#6 /var/www/html/magento2/vendor/symfony/console/Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#7 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#8 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#9 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2022-12-23T18:45:06.197144+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-23T18:45:06.202296+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-23T18:55:43.218201+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-23T18:55:43.224093+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-23T18:58:49.962411+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-23T18:58:49.967671+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-29T16:53:06.992214+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-29T16:53:06.995062+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-29T19:03:48.002924+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-29T19:03:48.011055+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2022-12-29T20:21:29.287385+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:33:32.211432+00:00] main.ERROR: Warning: Undefined array key "port" in /var/www/html/magento2/vendor/magento/framework/DB/Adapter/Pdo/Ibm.php on line 405 [] []
+[2022-12-30T00:33:57.402294+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:39:36.862924+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:41:07.167768+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:41:23.906431+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:50:16.689322+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:51:14.273734+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T00:58:45.983291+00:00] main.ERROR: The ibm driver is not currently installed [] []
+[2022-12-30T14:31:27.162962+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T14:42:18.099012+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T14:43:37.153128+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T14:44:13.992632+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T15:41:35.940749+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T16:38:19.867340+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T16:38:57.573634+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T16:39:23.949975+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T16:54:34.574191+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:06:04.351302+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T18:06:38.887765+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:06:30.521738+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T18:09:55.033442+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:19:00.394269+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:19:03.053433+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:19:35.545046+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:19:44.125378+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:19:45.415838+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:19:46.251747+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:20:23.268311+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:20:39.262955+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:20:48.445170+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:20:59.645023+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:20:59.692968+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:21:23.233805+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:21:39.019811+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:21:45.304742+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:22:12.650202+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:22:31.523967+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:22:55.757798+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:23:16.230336+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:23:35.126316+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T17:28:17.216945+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:39:02.036942+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:43:01.420675+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T17:43:01.506085+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T18:38:51.620959+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T18:41:39.003896+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T18:44:13.163520+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:44:42.863956+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:03:18.873632+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:03:20.669916+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:03:30.880138+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:03:34.325500+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:04:47.592555+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:04:49.451928+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:04:53.926662+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:05:06.735078+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:05:15.435934+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:10:37.974337+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:10:40.181763+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:10:43.010193+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2022-12-30T19:11:17.394031+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:20:57.195432+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:20:58.351978+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2022-12-30T19:20:59.239300+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-03T17:10:23.990910+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:12:25.373155+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:13:04.303865+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:17:30.520321+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:17:30.580997+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:17:33.694456+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:18:14.970020+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:18:37.193020+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:19:17.558534+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:23:49.617265+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:23:50.784074+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:25:47.591379+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-03T17:25:49.706896+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-03T18:04:08.207062+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T01:35:04.211631+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T18:57:44.098777+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:22:00.058120+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:23:33.521131+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:44:16.317378+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:44:16.472037+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:44:18.950754+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:50:31.416473+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:52:25.996152+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:52:55.557209+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:53:18.278578+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:53:47.686046+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:53:49.816141+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:53:50.623163+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:53:51.165488+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:53:58.366029+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:54:33.990341+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:54:35.237128+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:54:46.478064+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:55:22.426538+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:55:22.504555+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T20:55:24.642126+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:55:46.683076+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:55:46.774506+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:55:59.626090+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:56:01.222686+00:00] main.ERROR: SQLSTATE=     , SQLConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:56:53.783123+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:57:01.734788+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T20:57:01.833860+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T21:02:19.392321+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T21:02:27.389840+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T21:02:27.467903+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T21:02:29.481975+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T21:06:24.086593+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T21:06:26.656903+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T22:11:37.367891+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T22:11:50.648529+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T22:11:50.693734+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T22:11:52.503962+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T22:12:02.124381+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T23:12:26.888955+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-04T23:12:27.007841+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T23:12:28.192369+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T23:12:32.077781+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-04T22:12:33.922042+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -1390 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T16:32:08.810730+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T16:32:08.885265+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:14:12.247362+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:14:12.328550+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:14:24.622459+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:14:32.295899+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:40:17.781810+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:40:46.908765+00:00] main.ERROR: Warning: Undefined variable $ret in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-05T19:41:51.304294+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:42:43.122799+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:44:52.167956+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:45:31.369876+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:46:01.460719+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:46:02.811265+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:46:04.371591+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:46:09.614422+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:46:34.853900+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:46:36.480070+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:47:07.140508+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:47:08.404119+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:50:41.483684+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:50:43.429233+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:51:12.404849+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:51:12.470504+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:51:17.463855+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:51:18.430534+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:51:19.410432+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:51:31.660088+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:17.530314+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:18.941389+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:19.872005+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:25.736393+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:25.814606+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:27.035663+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:28.328161+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:33.207040+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:52:34.942243+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:52:36.274564+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:52:37.285841+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:52:38.331581+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:52:39.385896+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T19:52:40.338444+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:47.923850+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:52:48.918102+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:57:22.518440+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:57:24.623391+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:57:31.592063+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:57:31.641476+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T19:57:32.523110+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:41:50.954051+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:41:50.954035+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T22:18:35.863704+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:19:34.995212+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:19:38.402028+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:19:45.520835+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:19:45.605463+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:00.871434+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:04.448281+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:32.684236+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:33.822320+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:44.977236+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:46.787326+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:20:48.259983+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:20:49.637517+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:07.476301+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:08.649273+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:09.436136+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:12.540095+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:14.610238+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:20.958145+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:21.020199+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:22.047001+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:21:32.349585+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:23:21.364328+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:23:22.824859+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:23:23.598023+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:23:24.181371+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:23:24.639404+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:24:14.110910+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:24:15.355353+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:24:16.166115+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:24:16.897285+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:24:17.508113+00:00] main.ERROR: SQLSTATE=     , SQLDriverConnect: -5005 [IBM][CLI Driver] SQL10007N Message "0" could not be retrieved.  Reason code: "3".
+ ISAM:  [] []
+[2023-01-05T21:24:33.648520+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T21:24:33.716269+00:00] main.ERROR: SQLSTATE=, SQLAllocHandle: 0  ISAM:  [] []
+[2023-01-05T22:09:43.261586+00:00] main.ERROR: SQLSTATE[42601]: Syntax error: -104 [IBM][CLI Driver][DB2/LINUXX8664] SQL0104N  An unexpected token "END-OF-STATEMENT" was found following "ELECT GET_LOCK(?, ?)".  Expected tokens may include:  "<table_expr>".  SQLSTATE=42601
+ (SQLNumResultCols[-104] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-09T20:43:51.542044+00:00] main.ERROR: Warning: Undefined variable $lockName in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System.php on line 280 [] []
+[2023-01-09T20:51:03.958142+00:00] main.ERROR: SQLSTATE=57019, SQLDriverConnect: -1035 [IBM][CLI Driver] SQL1035N  The operation failed because the specified database cannot be connected to in the mode requested.  SQLSTATE=57019
+ ISAM:  [] []
+[2023-01-12T20:21:34.794184+00:00] main.ERROR: SQLSTATE[42601]: Syntax error: -7 [IBM][CLI Driver][DB2/LINUXX8664] SQL0007N  The statement was not processed because a character that is not supported in SQL statements was included in the SQL statement.  Invalid character: "`".  Text preceding the invalid character: "SELECT ".  SQLSTATE=42601
+ (SQLNumResultCols[-7] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-16T16:41:46.527329+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-16T16:41:46.531329+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-16T16:43:31.987709+00:00] main.ERROR: SQLSTATE[42601]: Syntax error: -7 [IBM][CLI Driver][DB2/LINUXX8664] SQL0007N  The statement was not processed because a character that is not supported in SQL statements was included in the SQL statement.  Invalid character: "`".  Text preceding the invalid character: "SELECT ".  SQLSTATE=42601
+ (SQLNumResultCols[-7] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-16T18:23:13.399617+00:00] main.ERROR: Warning: Undefined variable $pos in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 64 [] []
+[2023-01-16T18:23:13.691562+00:00] main.ERROR: Warning: Undefined variable $pos in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 64 [] []
+[2023-01-16T21:33:09.177707+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:33:10.472995+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:35:32.567921+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:37:46.762845+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:37:48.498699+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:38:46.417415+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:38:47.381742+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:40:50.156456+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:41:38.704310+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:42:00.876154+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:43:43.643686+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:43:44.934117+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:44:23.817750+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:44:44.216210+00:00] main.ERROR: SQLSTATE[24000]: Invalid cursor state: -99999 [IBM][CLI Driver] CLI0115E  Invalid cursor state. SQLSTATE=24000 (SQLFetchScroll[-99999] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_statement.c:1353) [] []
+[2023-01-16T21:47:48.229853+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "DB2INST1.CORE_CONFIG_DATA" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-16T21:54:44.817453+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T21:56:56.587033+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T22:57:32.936297+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T21:57:47.621710+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T21:57:49.366705+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T21:58:15.512476+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T21:58:15.804169+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-16T22:48:52.264118+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "DB2INST1.CORE_CONFIG_DATA" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-16T22:53:24.893300+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "DB2INST1.CORE_CONFIG_DATA" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-16T22:53:28.903624+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "DB2INST1.CORE_CONFIG_DATA" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-16T22:53:30.584278+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "DB2INST1.CORE_CONFIG_DATA" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-01-18T15:16:55.956318+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:18:39.639312+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:19:09.640692+00:00] main.ERROR: Warning: Undefined variable $result in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 143 [] []
+[2023-01-18T15:19:11.082014+00:00] main.ERROR: Warning: Undefined variable $result in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 143 [] []
+[2023-01-18T15:19:36.932920+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:19:59.577767+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:20:20.685879+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:20:33.905571+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:21:38.553546+00:00] main.ERROR: Warning: Undefined variable $conn in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php on line 142 [] []
+[2023-01-18T15:27:57.458066+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:24:57.268815+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:24:57.714861+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:25:35.437310+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:26:23.556979+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:30:17.175252+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:31:06.234595+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:31:51.192319+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:33:27.573534+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:40:13.289441+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:40:28.508755+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T16:41:54.944071+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T18:24:02.333347+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-18T18:24:02.339650+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-18T17:28:04.142073+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T17:43:43.274587+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T19:27:39.367597+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:01:12.947591+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:01:47.393627+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:02:23.528275+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:02:47.275317+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:14:05.310471+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:18:37.699793+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:19:09.118307+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:21:06.217444+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:21:18.736318+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:23:30.506627+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:24:00.253056+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T21:24:19.856350+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:03:05.194809+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:07:37.013030+00:00] main.ERROR: Deprecated Functionality: PDO::prepare(): Passing null to parameter #1 ($query) of type string is deprecated in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Statement/Pdo.php on line 84 [] []
+[2023-01-18T22:13:28.111051+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:14:08.641958+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:16:38.907545+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:16:49.244644+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:17:28.069531+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:17:49.952693+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:18:20.713161+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T23:24:13.437051+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:29:54.744374+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:30:21.505630+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:31:26.488082+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:31:47.391399+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:31:47.724585+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:38:56.518685+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-18T22:58:32.226489+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:26:23.088022+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:27:36.715943+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:27:38.013300+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:29:26.974734+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:29:28.836722+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:41:11.615623+00:00] main.ERROR: Warning: Array to string conversion in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Abstract.php on line 747 [] []
+[2023-01-19T16:41:13.613680+00:00] main.ERROR: Warning: Array to string conversion in /var/www/html/magento2/vendor/magento/zendframework1/library/Zend/Db/Adapter/Abstract.php on line 747 [] []
+[2023-01-19T16:43:38.396347+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:44:34.601931+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:44:36.326644+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:44:57.995308+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:44:59.367405+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T16:48:35.843800+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T17:07:25.197391+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-01-19T17:07:48.733997+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-01-19T17:07:56.101280+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-01-19T19:05:17.960233+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-01-19T19:06:16.246153+00:00] main.CRITICAL: Can't create directory /var/www/html/magento2/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-01-19T19:06:16.248797+00:00] main.DEBUG: Can't create directory /var/www/html/magento2/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. {"exception":"[object] (RuntimeException(code: 0): Can't create directory /var/www/html/magento2/generated/code/Magento/Framework/App/Http/.
+Class Magento\\Framework\\App\\Http\\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. at /var/www/html/magento2/vendor/magento/framework/Code/Generator.php:140)"} []
+[2023-01-19T19:06:31.056993+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-19T19:06:31.069984+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-19T19:08:53.832840+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T19:09:36.468610+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T19:09:38.982835+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T19:10:32.020941+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T20:34:27.781888+00:00] main.ERROR: Warning: Undefined array key "instanceName" in /var/www/html/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 128 [] []
+[2023-01-19T20:45:34.860063+00:00] main.ERROR: Warning: Undefined array key 1 in /var/www/html/magento2/vendor/magento/framework/ObjectManager/Factory/Compiled.php on line 86 [] []
+[2023-01-19T22:44:40.737900+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T22:51:32.822105+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T22:51:35.196575+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T23:41:43.954287+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.956820+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.958116+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.959715+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.963054+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.964264+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.965683+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.966841+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.967913+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.969107+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-01-19T23:41:43.970531+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-01-19T23:42:28.251576+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-19T23:42:28.257094+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-01-19T23:45:42.093001+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T23:45:43.408353+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T23:50:05.877909+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T23:59:07.815344+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-19T23:59:09.851916+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-20T01:00:34.473834+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-20T00:00:49.478302+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-20T00:05:53.271978+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-20T00:05:55.381068+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-20T00:07:39.454955+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-20T17:17:45.075401+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-23T18:49:58.249362+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-23T19:15:49.764704+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-23T20:00:09.653965+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-23T21:06:34.861877+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-23T21:46:40.376002+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-23T21:47:08.246779+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-24T16:55:06.625223+00:00] main.ERROR: SQLSTATE=08001, SQLDriverConnect: -30081 [IBM][CLI Driver] SQL30081N  A communication error has been detected. Communication protocol being used: "TCP/IP".  Communication API being used: "SOCKETS".  Location where the error was detected: "127.0.0.1".  Communication function detecting the error: "recv".  Protocol specific error code(s): "104", "*", "0".  SQLSTATE=08001
+ ISAM:  [] []
+[2023-01-24T18:28:16.458951+00:00] main.ERROR: SQLSTATE=08001, SQLDriverConnect: -30081 [IBM][CLI Driver] SQL30081N  A communication error has been detected. Communication protocol being used: "TCP/IP".  Communication API being used: "SOCKETS".  Location where the error was detected: "127.0.0.1".  Communication function detecting the error: "recv".  Protocol specific error code(s): "104", "*", "0".  SQLSTATE=08001
+ ISAM:  [] []
+[2023-01-24T18:48:54.022264+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-24T18:49:06.235634+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-30T21:01:05.546500+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-30T22:20:28.490541+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-01-30T21:20:10.363758+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-01T15:14:31.092082+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T00:48:36.857358+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T00:48:36.857295+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T18:16:25.271544+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T19:17:32.025852+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T18:51:23.514457+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T18:51:25.899907+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T19:01:08.066799+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T19:01:30.262532+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T19:24:47.115498+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T19:25:43.445026+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T19:26:38.810606+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-02T20:33:54.756091+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.759194+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.759599+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.760038+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.760499+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.761087+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.761609+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.762021+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.762483+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.762857+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-02T20:33:54.763289+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.925489+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.929553+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.930365+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.931128+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.931862+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.932595+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.933394+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.934109+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.934765+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.935473+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-02T20:34:58.936213+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-02T20:42:58.561885+00:00] main.ERROR: Warning: file_put_contents(/var/www/html/magento2/var/cache//mage-tags/mage---f73_CONFIG): Failed to open stream: Permission denied in /var/www/html/magento2/vendor/colinmollenhour/cache-backend-file/File.php on line 691 [] []
+[2023-02-02T20:42:58.609389+00:00] main.ERROR: Warning: file_put_contents(/var/www/html/magento2/var/cache//mage-tags/mage---f73_CONFIG): Failed to open stream: Permission denied in /var/www/html/magento2/vendor/colinmollenhour/cache-backend-file/File.php on line 691 [] []
+[2023-02-02T20:47:02.881108+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-03T14:57:44.575057+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-03T14:58:03.291519+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-03T20:38:18.623150+00:00] main.ERROR: Warning: include(/var/www/html/magento2/generated/code/Magento/Config/Model/ResourceModel/Config/Data/Collection/Interceptor.php): Failed to open stream: Permission denied in /var/www/html/magento2/vendor/composer/ClassLoader.php on line 571 [] []
+[2023-02-03T20:38:30.719749+00:00] main.ERROR: Warning: include(/var/www/html/magento2/generated/code/Magento/Config/Model/ResourceModel/Config/Data/Collection/Interceptor.php): Failed to open stream: Permission denied in /var/www/html/magento2/vendor/composer/ClassLoader.php on line 571 [] []
+[2023-02-03T20:43:11.628891+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-03T20:43:11.635513+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-03T20:45:35.535132+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T17:15:13.714928+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-07T17:15:13.721141+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-07T16:18:09.932447+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T16:29:41.748318+00:00] main.ERROR: There are no commands defined in the "deploy:mode" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-02-07T16:30:29.944023+00:00] main.ERROR: There are no commands defined in the "deploy:mode" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-02-07T16:31:56.966600+00:00] main.ERROR: There are no commands defined in the "deploy:mode" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-02-07T17:33:40.312602+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-07T17:33:40.315100+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-07T16:54:38.431018+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.433884+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.456888+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.458126+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.458892+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.459545+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.460209+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.461678+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.462643+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.463264+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-07T16:54:38.463974+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.863849+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.865048+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.865784+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.866422+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.867191+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.867952+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.868643+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.869937+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.874128+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.875028+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-07T16:56:12.875750+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.632091+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.633697+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.635474+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.636485+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.637281+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.637939+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.638833+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.639648+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.640317+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.641219+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-07T17:33:19.641883+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.501522+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.502680+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.503560+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.504383+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.505261+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.506130+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.506898+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.507603+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.508208+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.508839+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-07T17:35:08.509642+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.343645+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.349553+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.350533+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.351992+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.353126+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.353971+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.355099+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.356175+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.357408+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.358372+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:42.359305+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2023-02-07T17:38:58.994194+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T17:39:01.178574+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T17:39:23.445327+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T17:55:11.610067+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T18:18:20.930061+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T18:22:45.091794+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T20:07:59.593260+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T20:09:12.620251+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T20:09:12.690795+00:00] main.CRITICAL: InvalidArgumentException: Invalid scope type '' in /var/www/html/magento2/vendor/magento/framework/App/ScopeResolverPool.php:44
+Stack trace:
+#0 /var/www/html/magento2/vendor/magento/framework/App/Config/ScopeCodeResolver.php(48): Magento\Framework\App\ScopeResolverPool->get()
+#1 /var/www/html/magento2/vendor/magento/module-config/App/Config/Source/RuntimeConfigSource.php(122): Magento\Framework\App\Config\ScopeCodeResolver->resolve()
+#2 /var/www/html/magento2/vendor/magento/module-config/App/Config/Source/RuntimeConfigSource.php(74): Magento\Config\App\Config\Source\RuntimeConfigSource->loadConfig()
+#3 /var/www/html/magento2/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(43): Magento\Config\App\Config\Source\RuntimeConfigSource->get()
+#4 /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php(60): Magento\Framework\App\Config\ConfigSourceAggregated->get()
+#5 /var/www/html/magento2/generated/code/Magento/Config/App/Config/Type/System/Reader/Proxy.php(95): Magento\Config\App\Config\Type\System\Reader->read()
+#6 /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System.php(398): Magento\Config\App\Config\Type\System\Reader\Proxy->read()
+#7 /var/www/html/magento2/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(137): Magento\Config\App\Config\Type\System->readData()
+#8 /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System.php(284): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#9 /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System.php(210): Magento\Config\App\Config\Type\System->loadDefaultScopeData()
+#10 /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System.php(183): Magento\Config\App\Config\Type\System->getWithParts()
+#11 /var/www/html/magento2/vendor/magento/framework/App/Config.php(132): Magento\Config\App\Config\Type\System->get()
+#12 /var/www/html/magento2/vendor/magento/framework/App/Config.php(80): Magento\Framework\App\Config->get()
+#13 /var/www/html/magento2/vendor/magento/framework/App/Config.php(93): Magento\Framework\App\Config->getValue()
+#14 /var/www/html/magento2/vendor/magento/module-new-relic-reporting/Model/Config.php(94): Magento\Framework\App\Config->isSetFlag()
+#15 /var/www/html/magento2/vendor/magento/module-new-relic-reporting/Plugin/HttpPlugin.php(49): Magento\NewRelicReporting\Model\Config->isNewRelicEnabled()
+#16 /var/www/html/magento2/vendor/magento/framework/Interception/Interceptor.php(121): Magento\NewRelicReporting\Plugin\HttpPlugin->beforeCatchException()
+#17 /var/www/html/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#18 /var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php(32): Magento\Framework\App\Http\Interceptor->___callPlugins()
+#19 /var/www/html/magento2/vendor/magento/framework/App/Bootstrap.php(270): Magento\Framework\App\Http\Interceptor->catchException()
+#20 /var/www/html/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#21 {main} [] []
+[2023-02-07T20:11:39.371750+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:21:45.110939+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:21:55.399855+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:21:57.373199+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:22:18.725695+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:22:43.562064+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:23:07.850290+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:23:09.907427+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:24:29.698861+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-07T22:26:49.638330+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:50:11.534205+00:00] main.ERROR: SQLSTATE=08001, SQLDriverConnect: -30081 [IBM][CLI Driver] SQL30081N  A communication error has been detected. Communication protocol being used: "TCP/IP".  Communication API being used: "SOCKETS".  Location where the error was detected: "127.0.0.1".  Communication function detecting the error: "recv".  Protocol specific error code(s): "104", "*", "0".  SQLSTATE=08001
+ ISAM:  [] []
+[2023-02-08T14:53:00.981766+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:53:45.498854+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:54:57.089628+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:55:13.620919+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:55:39.871916+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:56:27.883147+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:56:31.223783+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:56:47.502357+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:57:03.906430+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:57:34.778588+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:58:18.358676+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:58:39.716545+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:59:33.227027+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T14:59:40.926026+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T15:42:37.046473+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T16:59:02.394966+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T16:59:26.055487+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T17:33:20.210881+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T17:33:29.965245+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:06:18.613628+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:06:18.613744+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:06:28.477755+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:06:30.446850+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:15:39.471441+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:16:33.023904+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:17:05.234259+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T18:19:17.628843+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:17:24.035866+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:17:26.021474+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:22:26.610047+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:25:42.818016+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:38:04.134555+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:38:15.325214+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:41:52.702541+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:42:09.382515+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:43:04.034079+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T20:43:50.925180+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-08T20:43:50.980244+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-08T20:51:27.534014+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-08T20:51:45.768739+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-08T21:00:54.077229+00:00] main.ERROR: Warning: Undefined variable $cache in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System.php on line 282 [] []
+[2023-02-08T21:01:19.635724+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T21:27:27.171857+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T21:34:34.277704+00:00] main.ERROR: Warning: Array to string conversion in /var/www/html/magento2/vendor/magento/framework/Cache/Core.php on line 35 [] []
+[2023-02-08T21:40:22.399373+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T21:54:11.990525+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T21:55:20.458840+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T22:57:08.116994+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-08T22:00:39.608333+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-09T01:21:26.401579+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-09T15:13:03.366472+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-09T20:07:49.896817+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-09T20:07:49.896473+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-09T21:32:23.738701+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-09T20:35:52.141441+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-09T20:35:54.487536+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-09T20:36:10.440848+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-09T20:36:10.561877+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-09T20:36:12.024787+00:00] main.ERROR: Unable to unserialize value. [] []
+[2023-02-09T20:36:29.664038+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-09T20:36:31.819863+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-10T14:42:24.214497+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-13T15:26:51.279410+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-02-13T15:37:09.600226+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-13T15:37:09.603256+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-13T16:21:19.316050+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-02-13T16:28:29.880681+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-02-13T16:32:01.983371+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-13T16:32:01.985839+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-13T16:34:48.622157+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-13T16:34:48.626261+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-13T16:42:33.979376+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, gettype() expects exactly 1 argument, 0 given [] []
+[2023-02-14T17:47:11.441267+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-14T17:47:11.441275+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-14T17:47:14.480646+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-15T17:51:44.399431+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-15T18:25:37.345385+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, get_class(): Argument #1 ($object) must be of type object, string given [] []
+[2023-02-15T18:31:15.866619+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-15T18:31:15.870556+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-15T22:03:56.562349+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-15T22:03:56.567800+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-21T17:55:28.945536+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, get_called_class() expects exactly 0 arguments, 1 given [] []
+[2023-02-21T18:15:41.968356+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-21T18:15:41.971654+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-22T21:51:32.319079+00:00] main.ERROR: Invalid scope type '' [] []
+[2023-02-24T18:12:12.790941+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-24T18:12:12.793802+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-02-27T16:56:53.308076+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 60 [] []
+[2023-03-02T15:42:46.178784+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-03-02T15:42:46.181189+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-03-07T16:12:40.506441+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 60 [] [][2023-03-10T17:04:08.809218+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T14:25:57.018061+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T15:36:45.706220+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T15:53:27.850331+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T15:59:43.731698+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T18:05:27.926599+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T18:23:14.051997+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T18:27:20.390201+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 76 [] []
+[2023-03-13T20:21:28.109120+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 88 [] []
+[2023-03-13T20:25:05.822896+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 88 [] []
+[2023-03-13T20:29:31.968748+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Too few arguments to function Magento\Framework\App\Config::get(), 0 passed in /var/www/html/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 171 and at least 1 expected [] []
+[2023-03-13T20:29:52.935544+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Too few arguments to function Magento\Framework\App\Config::get(), 0 passed in /var/www/html/magento2/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 171 and at least 1 expected [] []
+[2023-03-13T20:30:24.727854+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 88 [] []
+[2023-03-13T20:36:09.542887+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 88 [] []
+[2023-03-13T20:36:26.583327+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Framework\App\Config\PreProcessorComposite::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/module-config/App/Config/Type/System/Reader.php on line 88 [] []
+[2023-03-14T19:35:33.180305+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, strtoupper(): Argument #1 ($string) must be of type string, array given [] []
+[2023-03-17T14:43:04.803268+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, get_class(): Argument #1 ($object) must be of type object, array given [] []
+[2023-03-18T21:27:53.871418+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, count(): Argument #1 ($value) must be of type Countable|array, Magento\Config\App\Config\Source\ModularConfigSource given [] []
+[2023-03-21T17:57:59.484331+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Theme\Model\Config\Processor\DesignTheme\Proxy::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/framework/App/Config/PreProcessorComposite.php on line 41 [] []
+[2023-03-21T17:59:08.611073+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Theme\Model\Config\Processor\DesignTheme\Proxy::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/framework/App/Config/PreProcessorComposite.php on line 41 [] []
+[2023-03-21T17:59:08.620789+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-03-21T17:59:08.623244+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2023-03-22T20:30:18.631424+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, Magento\Theme\Model\Config\Processor\DesignTheme\Proxy::process(): Argument #1 ($config) must be of type array, null given, called in /var/www/html/magento2/vendor/magento/framework/App/Config/PreProcessorComposite.php on line 41 [] []
+[2023-03-27T16:29:39.421085+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "INFORMATION_SCHEMA.TABLES" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T16:33:31.083675+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "INFORMATION_SCHEMA.TABLES" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T18:06:54.230799+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "INFORMATION_SCHEMA.TABLES" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T20:21:04.262608+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "INFORMATION_SCHEMA.TABLES" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T20:27:27.971680+00:00] main.ERROR: SQLSTATE[42S02]: Base table or view not found: -204 [IBM][CLI Driver][DB2/LINUXX8664] SQL0204N  "INFORMATION_SCHEMA.TABLES" is an undefined name.  SQLSTATE=42704
+ (SQLNumResultCols[-204] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T20:57:53.959290+00:00] main.ERROR: SQLSTATE[42S22]: Column not found: -206 [IBM][CLI Driver][DB2/LINUXX8664] SQL0206N  "MAGENTO2" is not valid in the context where it is used.  SQLSTATE=42703
+ (SQLNumResultCols[-206] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T20:59:40.579617+00:00] main.ERROR: SQLSTATE[42884]: <<Unknown error>>: -440 [IBM][CLI Driver][DB2/LINUXX8664] SQL0440N  No authorized routine named "DATABASE" of type "FUNCTION" having compatible arguments was found.  SQLSTATE=42884
+ (SQLNumResultCols[-440] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T21:00:41.899601+00:00] main.ERROR: SQLSTATE[42S22]: Column not found: -206 [IBM][CLI Driver][DB2/LINUXX8664] SQL0206N  "MAGENTO2" is not valid in the context where it is used.  SQLSTATE=42703
+ (SQLNumResultCols[-206] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T21:01:13.853067+00:00] main.ERROR: SQLSTATE[42S22]: Column not found: -206 [IBM][CLI Driver][DB2/LINUXX8664] SQL0206N  "MAGENTO2" is not valid in the context where it is used.  SQLSTATE=42703
+ (SQLNumResultCols[-206] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T21:59:21.834818+00:00] main.ERROR: SQLSTATE[42S22]: Column not found: -206 [IBM][CLI Driver][DB2/LINUXX8664] SQL0206N  "flag.flag_code" is not valid in the context where it is used.  SQLSTATE=42703
+ (SQLNumResultCols[-206] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T21:59:45.984417+00:00] main.ERROR: SQLSTATE[42S22]: Column not found: -206 [IBM][CLI Driver][DB2/LINUXX8664] SQL0206N  "flag.flag_code" is not valid in the context where it is used.  SQLSTATE=42703
+ (SQLNumResultCols[-206] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T22:04:28.735938+00:00] main.ERROR: SQLSTATE[42S22]: Column not found: -206 [IBM][CLI Driver][DB2/LINUXX8664] SQL0206N  "flag.flag_code" is not valid in the context where it is used.  SQLSTATE=42703
+ (SQLNumResultCols[-206] at /home/poc-dev/Downloads/PDO_IBM-1.5.0/PDO_IBM-1.5.0/ibm_driver.c:238) [] []
+[2023-03-27T22:28:56.049307+00:00] main.CRITICAL: Type Error occurred when creating object: Magento\Framework\Locale\Resolver, get_class(): Argument #1 ($object) must be of type object, string given [] []
