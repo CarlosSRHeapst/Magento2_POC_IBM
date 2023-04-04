@@ -10,3 +10,5 @@ Su intención es la de reemplazar el motor de base de datos utilizada por MAGENT
 
 This project is a modification for MAGENTO 2 OPEN SOURCE (Ver. 2.4.5.).
 Its intention is to replace the database engine used by MAGENTO 2 (integrated into the MYSQL framework) by the IBM DB2 database. 
+
+Contacto: carlosantoniosr@outlook.com / carlos.sanchez@heapstash.com
