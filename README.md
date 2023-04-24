@@ -2,7 +2,7 @@
 
 Proyecto Open Source, elaborado para CIMACO por Heapstash.
 
--Autoria: Heapstash, Carlos Antonio Sanchez Rivas.-
+-Autoria de modificaciones: Heapstash, Carlos Antonio Sanchez Rivas.-
 
 Este proyecto es una modificacion para MAGENTO 2 OPEN SOURCE (Ver. 2.4.5.).
 Su intención es la de reemplazar el motor de base de datos utilizada por MAGENTO 2 (integrada en el framework) de MYSQL por la base de datos IBM DB2.
